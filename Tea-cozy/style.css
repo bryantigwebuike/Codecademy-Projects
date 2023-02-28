@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: azure;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    overflow-x: hidden;
+    opacity: 0.9;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-elements li{
+    display: inline;
+    position: relative;
+    bottom: 18px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.top {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.banner {
+    text-align: center;
+    margin: 20px auto;
+    background-image: url('\img-mission-background.jpg');
+    height: 700px;
+    width: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dark {
+    position: relative;
+    top: 45%;
+    background-color: black;
+    height: 100px;
+    flex-shrink: 2;
+}
+
+
+.dark h2 {
+    position: relative;
+    top: 15px;
+}
+
+h6 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+.left .logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 18px;
+}
+
+.varieties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.varieties li {
+    margin: 10px;
+}
+
+.addy {
+    position: relative;
+    left: 70px;
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('\img-locations-background.jpg');
+    height: 700px;
+    width: 1200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.locations .darked {  
+    padding-top: 60px; 
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    background-color: cadetblue;
+}
+
+.center { 
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+
+.varieties img {
+    height: 200px;
+    width: 300px;
+}
+
+.right, .left {
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.types {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+.right {
+    float: right;
+    margin-top: 20px;
+}
+
