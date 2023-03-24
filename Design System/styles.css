@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    color: #fff;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* FONTS
+font-family: 'Asap', sans-serif;
+font-family: 'Cuprum', sans-serif;
+font-family: 'Figtree', sans-serif;
+font-family: 'Tangerine', cursive; */
+
+.borders {
+    border: 2px solid #36393A;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    background-color: #36393A;
+    position: relative;
+    left: 150px;
+    padding: 50px;
+}
+
+.test {
+    background-color: #72777B;
+    border-radius: 8px;
+    max-width: 150px;
+    text-align: center;
+    padding: 0.05px;
+    margin-bottom: 20px;
+   
+}
+
+.fonts {
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.fonts .five {
+    font-weight: 700;
+}
+
+.fonts .underline {
+    font-weight: 400;
+    text-decoration: underline;
+    
+}
+
+.fonts .italics {
+    font-style: italic;
+}
+
+.fonts.cuprum {
+    font-family: 'Cuprum', sans-serif;
+}
+
+.fonts.figtree {
+    font-family: 'Figtree', sans-serif;
+}
+
+.fonts.tangerine {
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    line-height: 0.5;
+}
+
+.color {
+    height: 100px;
+    width: 300px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.button {
+    border: 2px solid #2d5dcc;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    color: azure;
+    background-color: #2d5dcc;
+}
+
+.button.one {
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.button.two {
+    height: 30px;
+    width: 200px;
+    font-size: 10px;
+}
+
+.button.three {
+    height: 30px;
+    font-size: 10px;
+    width: 300px;
+}
+
+.button.four {
+    height: 50px;
+    width: 400px;
+}
+
+.button.five {
+    height: 50px;
+    width: 500px;
+}
+
+.button.six {
+    height: 50px;
+    width: 800px;
+}
+
+.color p {
+    color: azure;
+}
+
+.color.one {
+    background-color: #2d5dcc;
+}
+
+.color.two {
+    background-color: #d957d9;
+}
+
+.color.three {
+    background-color: #A01C32;
+}
+
+.color.four {
+    background-color: #99A314;
+}
+
+.color.five {
+    background-color: #404E88;
+}
+
+.color.six {
+    background-color: #E0F011;
+}
+
+.header {
+    
+    left: 150px;
+    color: #EAEBEB;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-size: 80px;
+    padding-left: 50px;
+}
+
+h2 {
+    display: block;
+}
